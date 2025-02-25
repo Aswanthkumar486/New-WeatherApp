@@ -38,3 +38,9 @@ h1 {
 .section-content p {
   color: #FFB22C; /* Steel Blue */
 }
+@media (max-width: 768px) {
+  .container {
+    width: 90%; /* Makes it fit better on small screens */
+    min-height: auto; /* Removes the fixed height issue */
+  }
+}
