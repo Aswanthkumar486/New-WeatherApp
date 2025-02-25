@@ -1,0 +1,35 @@
+
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+body{
+  background-color: #854836;
+  font-style: italic;
+
+}
+.container{
+  border: 1px solid #23486A;
+  height: 590px;
+  width: 60%;
+  background-color: #F7F7F7;
+}
+.section-content {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-content strong {
+  color: #854836; /* Lavender */
+}
+
+h1 {
+  color: #3B6790;
+  font-family:cursive;
+  font-style: italic;
+  /* Orange Red */
+}
+
+.section-content p {
+  color: #FFB22C; /* Steel Blue */
+}
