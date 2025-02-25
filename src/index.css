@@ -9,11 +9,16 @@ body{
   font-style: italic;
 
 }
-.container{
+.container {
   border: 1px solid #23486A;
-  height: 590px;
+  min-height: 590px; /* Ensures enough space but allows flexibility */
+  max-width: 90%; /* Prevents it from getting too large */
   width: 60%;
   background-color: #F7F7F7;
+  margin: auto; /* Centers it */
+  padding: 20px; /* Adds spacing */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow */
+  border-radius: 10px; /* Optional: Rounds corners */
 }
 .section-content {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
