@@ -11,7 +11,7 @@ body{
 }
 .container {
   border: 1px solid #23486A;
-  min-height: 590px; /* Ensures enough space but allows flexibility */
+  min-height: 630px; /* Ensures enough space but allows flexibility */
   max-width: 90%; /* Prevents it from getting too large */
   width: 60%;
   background-color: #F7F7F7;
