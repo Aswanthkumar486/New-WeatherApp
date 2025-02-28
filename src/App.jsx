@@ -56,7 +56,7 @@ export default function App() {
       <div className="row justify-content-center">
         <div className="col-md-6">
           <div className="form-group">
-            <label htmlFor="city">Enter City Name:</label>
+            <label htmlFor="city" style={{color:"white"}}>Enter City Name:</label>
             <div className="input-group">
               <input
                 type="text"
