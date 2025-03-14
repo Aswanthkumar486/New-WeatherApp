@@ -1,74 +1,66 @@
-/* Apply a universal font style to all elements */
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Sets the font family */
+/* * {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Styling for the body */
 body {
-    position: relative; /* Ensures correct positioning for child elements */
-    --c: rgb(36, 144, 216); /* Defines a CSS variable for color */
-    background-color: #000; /* Sets the background color to black */
-    min-height: 100vh; /* Ensures the body covers the full height of the viewport */
-    background-size: cover; /* Makes sure the background covers the entire screen */
-    animation: hi 150s linear infinite; /* Applies an animation to the background */
+  position: relative;
+  --c: rgb(36, 144, 216);
+  background-color: #000;
+  min-height: 100vh;
+  background-size: cover;
+  animation: hi 150s linear infinite;
 }
 
-/* Background effect layer using the ::after pseudo-element */
 body::after {
-    content: ""; /* Creates an empty pseudo-element */
-    position: absolute; /* Makes the pseudo-element cover the whole screen */
-    inset: 0; /* Ensures the element stretches across the entire body */
-    z-index: 0; /* Places it behind all other content */
-    backdrop-filter: blur(1em) brightness(6); /* Applies a blur and brightness effect */
-    background-image: radial-gradient(circle at 50% 50%, #0000 0, #0000 2px, hsl(0 0 4%) 2px); /* Adds a dotted pattern */
-    background-size: 8px 8px; /* Defines the size of the dotted pattern */
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  backdrop-filter: blur(1em) brightness(6);
+  background-image: radial-gradient(circle at 50% 50%, #0000 0, #0000 2px, hsl(0 0 4%) 2px);
+  background-size: 8px 8px;
 }
 
-/* Main container styles */
 .container {
-    position: relative; /* Ensures it appears correctly on the page */
-    z-index: 2; /* Places it above the background effect */
-    width: 62%; /* Defines the container width */
-    background: transparent; /* Makes the container background transparent */
-    margin: auto; /* Centers the container horizontally */
-    padding: 20px; /* Adds spacing inside the container */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+  position: relative;
+  z-index: 2;
+  width: 62%;
+  background: transparent;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Styling for headings */
 h1 {
-    color: #716f81; /* Sets the text color */
-    font-family: cursive; /* Uses a cursive font */
-    font-style: italic; /* Makes the text italic */
+  color: #716f81;
+  font-family: cursive;
+  font-style: italic;
 }
 
-/* Style for strong (bold) text inside section content */
 .section-content strong {
-    color: white; /* Sets the text color to white */
+  color: white;
 }
 
-/* Style for paragraph text inside section content */
 .section-content p {
-    color: #FFDD87; /* Sets the text color to a yellowish shade */
+  color: #FFDD87;
 }
 
-/* Background animation effect with multiple radial gradients */
 body {
-    --c: #09f; /* Defines a color variable */
-    background-image: 
-        radial-gradient(4px 100px at 0px 235px, var(--c), #0000),
-        radial-gradient(4px 100px at 300px 235px, var(--c), #0000),
-        radial-gradient(1.5px 1.5px at 150px 117.5px, var(--c) 100%, #0000 150%); /* Creates multiple radial gradients for a pattern */
-    background-size: 100% 100%; /* Ensures full coverage of the screen */
-    animation: hi 150s linear infinite; /* Applies an animation to move the background */
+  --c: #09f;
+  background-image: 
+      radial-gradient(4px 100px at 0px 235px, var(--c), #0000),
+      radial-gradient(4px 100px at 300px 235px, var(--c), #0000),
+      radial-gradient(1.5px 1.5px at 150px 117.5px, var(--c) 100%, #0000 150%);
+  background-size: 100% 100%;
+  animation: hi 150s linear infinite;
 }
 
-/* Keyframe animation for the background */
 @keyframes hi {
-    0% {
-        background-position: 0 0; /* Initial position */
-    }
-    100% {
-        background-position: 0 100vh; /* Moves the background smoothly */
-    }
+  0% {
+      background-position: 0 0;
+  }
+  100% {
+      background-position: 0 100vh;
+  }
 }
+ */
