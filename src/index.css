@@ -28,7 +28,7 @@ body::after {
     position: relative; /* Ensure it's on top */
     z-index: 2; /* Higher than body::after */
   
-    height: 850px;
+    height: 10px;
     width: 62%;
     background-color: #F7F7F7;
     margin: auto;
