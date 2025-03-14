@@ -13,7 +13,7 @@ h1 {
 }
 
 /* Background effect layer */
-body::after {
+/* body::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -21,6 +21,14 @@ body::after {
     backdrop-filter: blur(1em) brightness(6);
     background-image: radial-gradient(circle at 50% 50%, #0000 0, #0000 2px, hsl(0 0 4%) 2px);
     background-size: 8px 8px;
+} */
+body::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    backdrop-filter: blur(1em) brightness(6);
+    /* background-image: none; */ /* Commenting out the dotted background */
 }
 
 /* Main container */
